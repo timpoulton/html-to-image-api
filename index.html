@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML to Image API</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
+        h1 { color: #333; }
+        .status { padding: 20px; background: #e8f5e8; border-radius: 8px; margin-top: 20px; }
+        .endpoint { background: #f0f0f0; padding: 10px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>HTML to Image API</h1>
+    <p>Convert HTML content to images using our serverless API.</p>
+    
+    <div class=" status\>
+ <h2> API Status: Active</h2>
+ <p>Endpoint: <span class=\endpoint\>/api/html-to-image</span></p>
+ </div>
+ 
+ <h2>Usage</h2>
+ <pre>
+POST /api/html-to-image
+Content-Type: application/json
+
+{
+ \html\: \<h1>Your HTML content</h1>\,
+ \width\: 800,
+ \height\: 600,
+ \format\: \png\
+}
+ </pre>
+</body>
+</html>
